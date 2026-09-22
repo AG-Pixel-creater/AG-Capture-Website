@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AG Capture | Screen Recorder & Screen Capture</title>
+    <meta
+      name="description"
+      content="AG Capture is a Windows screen recorder and screen capture tool for fast, clear recording and sharing."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <div class="container nav-wrap">
+          <a href="#home" class="brand" aria-label="AG Capture Home">
+            <span class="brand-mark">AG</span>
+            <span class="brand-name">AG Capture</span>
+          </a>
+
+          <nav class="main-nav" aria-label="Main navigation">
+            <a href="#features" data-i18n="navFeatures">Features</a>
+            <a href="#how-it-works" data-i18n="navHow">How It Works</a>
+            <a href="#screenshots" data-i18n="navScreenshots">Screenshots</a>
+            <a href="#faq" data-i18n="navFaq">FAQ</a>
+            <a href="#contact" data-i18n="navContact">Contact</a>
+          </nav>
+
+          <div class="header-actions">
+            <button class="icon-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
+              <span class="toggle-icon">☀️</span>
+            </button>
+            <button class="lang-toggle" id="langToggle" type="button" aria-label="Toggle language">
+              <span>اردو</span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main id="home">
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow" data-i18n="eyebrow">Reliable recording for Windows</p>
+              <h1 data-i18n="heroTitle">Download AG Capture for Windows</h1>
+              <p class="lead" data-i18n="heroLead">
+                Capture your screen, record crisp audio, and share polished videos in seconds.
+              </p>
+
+              <div class="hero-actions">
+                <a class="primary-btn" href="AGCapture.exe" download data-i18n="downloadBtn">Download for Windows</a>
+                <a class="secondary-btn" href="#screenshots" data-i18n="demoBtn">View Demo</a>
+              </div>
+
+              <div class="hero-metrics">
+                <div>
+                  <strong>4.9/5</strong>
+                  <span data-i18n="ratingText">User rating</span>
+                </div>
+                <div>
+                  <strong>10K+</strong>
+                  <span data-i18n="downloadsText">Downloads</span>
+                </div>
+                <div>
+                  <strong>HD</strong>
+                  <span data-i18n="qualityText">Recording quality</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-panel" aria-label="AG Capture preview">
+              <div class="screen-window">
+                <div class="window-bar">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="screen-content">
+                  <div class="screen-viewport">
+                    <div class="recording-pill">● Live Recording</div>
+                    <div class="preview-card">
+                      <div class="preview-header">
+                        <span class="dot blue"></span>
+                        <span>AG Capture</span>
+                      </div>
+                      <div class="preview-body">
+                        <div class="video-box">
+                          <div class="play-button">▶</div>
+                        </div>
+                        <div class="timeline">
+                          <span></span>
+                          <span class="long"></span>
+                          <span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="features" id="features">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow accent" data-i18n="featuresLabel">Why users choose AG Capture</p>
+              <h2 data-i18n="featuresTitle">Powerful features for effortless recording</h2>
+            </div>
+
+            <div class="feature-grid">
+              <article class="feature-card">
+                <div class="feature-icon">🎥</div>
+                <h3 data-i18n="feature1Title">Full Screen Recording</h3>
+                <p data-i18n="feature1Text">Record your whole desktop or selected area with smooth, high-quality output.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="feature-icon">🔈</div>
+                <h3 data-i18n="feature2Title">Microphone + System Audio</h3>
+                <p data-i18n="feature2Text">Capture both narration and system sounds for clearer tutorials and walkthroughs.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="feature-icon">✂️</div>
+                <h3 data-i18n="feature3Title">Quick Editing</h3>
+                <p data-i18n="feature3Text">Trim and polish recordings quickly before exporting or sharing your final video.</p>
+              </article>
+
+              <article class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3 data-i18n="feature4Title">Fast Performance</h3>
+                <p data-i18n="feature4Text">Low-overhead capture keeps your workflow smooth even during demanding sessions.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="how-it-works" id="how-it-works">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow accent" data-i18n="howLabel">Simple process</p>
+              <h2 data-i18n="howTitle">How it works</h2>
+            </div>
+
+            <div class="steps">
+              <div class="step">
+                <span class="step-number">1</span>
+                <h3 data-i18n="step1Title">Choose area</h3>
+                <p data-i18n="step1Text">Select the full screen, a window, or a custom region to record.</p>
+              </div>
+              <div class="step">
+                <span class="step-number">2</span>
+                <h3 data-i18n="step2Title">Adjust settings</h3>
+                <p data-i18n="step2Text">Set audio, webcam, and quality preferences before hitting record.</p>
+              </div>
+              <div class="step">
+                <span class="step-number">3</span>
+                <h3 data-i18n="step3Title">Save & share</h3>
+                <p data-i18n="step3Text">Export in seconds and share your recordings with your team or audience.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="screenshots" id="screenshots">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow accent" data-i18n="screenshotsLabel">Preview</p>
+              <h2 data-i18n="screenshotsTitle">Screenshots</h2>
+            </div>
+
+            <div class="gallery">
+              <div class="shot">
+                <div class="shot-frame frame-one">
+                  <div class="mini-toolbar"></div>
+                  <div class="mini-video"></div>
+                </div>
+              </div>
+              <div class="shot">
+                <div class="shot-frame frame-two">
+                  <div class="mini-toolbar"></div>
+                  <div class="mini-video alt"></div>
+                </div>
+              </div>
+              <div class="shot">
+                <div class="shot-frame frame-three">
+                  <div class="mini-toolbar"></div>
+                  <div class="mini-video tall"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="faq" id="faq">
+          <div class="container faq-wrap">
+            <div class="section-heading left-align">
+              <p class="eyebrow accent" data-i18n="faqLabel">Need answers?</p>
+              <h2 data-i18n="faqTitle">Frequently asked questions</h2>
+            </div>
+
+            <div class="faq-list">
+              <details open>
+                <summary data-i18n="faq1Question">Is AG Capture compatible with Windows 10 and 11?</summary>
+                <p data-i18n="faq1Answer">Yes, AG Capture is designed for modern Windows systems and runs smoothly on Windows 10 and Windows 11.</p>
+              </details>
+              <details>
+                <summary data-i18n="faq2Question">Can I record both microphone and system audio?</summary>
+                <p data-i18n="faq2Answer">Absolutely. You can record narration, system sound, or both at the same time for complete coverage.</p>
+              </details>
+              <details>
+                <summary data-i18n="faq3Question">Does it support screen capture with region selection?</summary>
+                <p data-i18n="faq3Answer">Yes, you can choose a full-screen capture, a single window, or a custom-selected area for precise recording.</p>
+              </details>
+              <details>
+                <summary data-i18n="faq4Question">Can I export to common video formats?</summary>
+                <p data-i18n="faq4Answer">AG Capture supports popular export settings so you can save recordings in the format best suited for sharing and editing.</p>
+              </details>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact" id="contact">
+          <div class="container contact-card">
+            <div>
+              <p class="eyebrow accent" data-i18n="contactLabel">Let’s connect</p>
+              <h2 data-i18n="contactTitle">Ready to start recording?</h2>
+            </div>
+            <a class="primary-btn" href="mailto:support@agcapture.com" data-i18n="contactBtn">Contact Support</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-wrap">
+          <p>© 2026 AG Capture</p>
+          <p data-i18n="footerTag">Windows screen recording made simple.</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
